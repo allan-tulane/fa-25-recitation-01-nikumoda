@@ -1,7 +1,6 @@
 # CMPS 2200  Recitation 01
 
 **Name (Team Member 1):** Nikhil Modayur  
-**Name (Team Member 2):**_________________________
 
 In this recitation, we will investigate asymptotic complexity. Additionally, we will get familiar with the various technologies we'll use for collaborative coding.
 
@@ -43,13 +42,13 @@ The worst case input input value for linear_search would either be the last elem
 
 - [X] 5. Describe the best case input value of `key` for `linear_search`? for `binary_search`? 
 
-Best case input value for linear_search would be the first element in the list, and the worst case would be binary_search. 
+Best case input value for linear_search would be the first element in the list, and the best case for binary_search would be the middle element of the list.
 
 - [X] 6. Complete the `time_search` function to compute the running time of a search function. Note that this is an example of a "higher order" function, since one of its parameters is another function.
 
 - [X] 7. Complete the `compare_search` function to compare the running times of linear search and binary search. Confirm the implementation by running `pytest test_main.py::test_compare_search`, which contains some simple checks.
 
-- [ ] 8. Call `print_results(compare_search())` and paste the results here:
+- [X] 8. Call `print_results(compare_search())` and paste the results here:
 
 |        n |   linear |   binary |
 |----------|----------|----------|
